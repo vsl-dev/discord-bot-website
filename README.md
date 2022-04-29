@@ -1,2 +1,2 @@
-# discord-bot-website
-Customizable discord bot website!
+# Discord Bot Website
+Coming soon...
