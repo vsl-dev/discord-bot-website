@@ -2,6 +2,10 @@
 
 Basic discord bot website created by me
 
+### Example
+
+https://discord-bot-website.vsldev.repl.co/
+
 # Setup
 
 Fill in the blanks here with the characteristics of your own bot and arrange the parts that say YOUR BOT and the images on the site according to you.
