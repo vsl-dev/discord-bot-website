@@ -29,7 +29,7 @@ app.set('json spaces', 1)
    console.log("Discord client logged!")
  });
 
-client.login(process.env.token);
+client.login("YOUR BOT TOKEN");
 
 // pages
 
