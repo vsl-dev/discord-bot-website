@@ -1,0 +1,13 @@
+{
+	"version": "v1.0",
+	"bot_name": "",
+	"bot_id": "",
+	"theme": {
+		"color": "#Ff005a"
+	},
+	"links": {
+		"support_server": "",
+		"bot_invite": "",
+		"vote_url": ""
+	}
+}

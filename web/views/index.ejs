@@ -1,0 +1,67 @@
+<%- include('parts/meta') %>
+<meta name="description" content="Fast, customizable, user friendly bot YOUR BOT!" />
+<title>YOUR BOT</title>
+</head>
+<body>
+<%- include('parts/head') %>
+
+<div id="main" class="main">
+<h1 class="main_title">YOUR BOT</h1>
+<p class="main_alt_title">Fast, customizable discord's best bot YOUR BOT!</p>
+<button onclick="window.location.href='/invite'" class="main_invite_button">Invite</button>
+<button onclick="window.location.href='/support'" class="main_support_button">Support Server</button>
+</div>
+
+<!-- <center><div class="line_2"></div></center> -->
+<div id="features">
+<h1 class="f__title"><span style="border-bottom: #Ff005a 2.5px solid;">Featur</span>es</h1>
+
+<div class="row">
+<img class="features__img" src="https://cdn.vsldev.tk/images/iDeWcY9gIbHZ6tc6GScs.png" width="155" height="155">
+<h3 class="features__title">Feature #1 <br><span class="features__alt__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></h3>
+</div>
+	
+<br>
+
+<div class="row_reverse">
+<h3 class="features__title__reverse">Feature #2 <br><span class="features__alt__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></h3>
+<img class="features__img__reverse" src="https://cdn.vsldev.tk/images/iDeWcY9gIbHZ6tc6GScs.png" width="155" height="155">
+</div>
+
+<br>
+
+<div class="row">
+<img class="features__img" src="https://cdn.vsldev.tk/images/iDeWcY9gIbHZ6tc6GScs.png" width="155" height="155">
+<h3 class="features__title">Feature #3 <br><span class="features__alt__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></h3>
+</div>
+<br><br><br>
+</div>
+
+<div id="stats">
+<h1 class="f__title"><span style="border-bottom: #Ff005a 2.5px solid;">Bot Sta</span>ts</h1>
+
+<center>
+<div class="stats">
+<br>
+<h2 class="stats_counters"><%= gldc %><br><span style="color: #fff; font-size: 20px; font-weight: bold; letter-spacing: 0;">servers</span></h2>
+
+<h2 class="stats_counters"><%= usrc %><br><span style="color: #fff; font-size: 20px; font-weight: bold; letter-spacing: 0;">users</span></h2>
+
+<h2 class="stats_counters"><%= chnc %><br><span style="color: #fff; font-size: 20px; font-weight: bold; letter-spacing: 0;">channels</span></h2>
+</div>
+</center>
+</div>
+
+<div id="end">
+<div id="ending" class="ending">
+<h1 class="end_title">Ready to try YOUR BOT?</h1>
+<p class="end_alt_title">Invite YOUR BOT and start giving your server cool perks!</p>
+<button onclick="window.location.href='/invite'" class="end_invite_button">Invite</button>
+</div>
+<br><br><br>
+</div>
+
+<div id="footer">
+<%- include('parts/footer') %>
+</div>
+</body>

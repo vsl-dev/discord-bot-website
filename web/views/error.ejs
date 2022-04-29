@@ -1,0 +1,14 @@
+<%- include('parts/meta') %>
+<meta name="description" content="Fast, customizable, user friendly bot YOUR BOT!" />
+<title><%= statuscode %> | <%= message %></title>
+</head>
+<body>
+<%- include('parts/head') %>
+
+<center>
+	<h1 style="padding: 100px 0 0 0; font-size: 45px; color: var(--font-color)"><%= statuscode %></h1>
+	<h3 style="font-size: 33px; color: #ccc;"><%= message %></h3>
+	<button onclick="window.location.href = '/'" class="main_invite_button">Go Home</button>
+</center>
+	
+</body>

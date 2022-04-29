@@ -1,0 +1,22 @@
+{
+  "name": "Discord bot website by vsl-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+	"start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "github.com/vsl-dev",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cli-color": "^2.0.2",
+    "discord.js": "^12.5.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "moment": "^2.29.1"
+  }
+}

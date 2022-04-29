@@ -1,0 +1,24 @@
+{
+	"commands": [
+		{
+			"command": "!help",
+			"description": "Sends all commands.",
+			"category": "Help"
+		},
+		{
+			"command": "!moderation",
+			"description": "Sends allmoderation commands.",
+			"category": "Help"
+		},
+		{
+			"command": "!fun",
+			"description": "Sends all fun commands.",
+			"category": "Help"
+		},
+		{
+			"command": "!economy",
+			"description": "Sends all economy commands.",
+			"category": "Help"
+		}
+	]
+}
